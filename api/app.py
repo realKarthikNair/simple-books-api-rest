@@ -8,6 +8,6 @@ books = [
 ]
 
 
-@app.route("/books", methods=["GET"])
+@app.route("/books")
 def home():
     return render_template(("books.html"), books=books)

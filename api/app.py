@@ -10,4 +10,4 @@ books = [
 
 @app.route("/books")
 def home():
-    return render_template(("books.html"), books=books)
+    return books
